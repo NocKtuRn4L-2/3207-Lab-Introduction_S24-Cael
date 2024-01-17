@@ -4,5 +4,6 @@
 
 char randchar() {
 
-    char randomChar = rand() % (26);
+    const char randomChar = (rand() % (26)) + 65;
+    return randomChar;
 }
