@@ -1,3 +1,11 @@
+/*
+Dylan Cael - TUQ68706 - 1/17/2024
+CIS-3207-003
+Lab #0 Introduction to git & GitHub
+
+Given driver for random.c
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
