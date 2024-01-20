@@ -6,9 +6,11 @@ Lab #0 Introduction to git & GitHub
 Function that calls an already seeded random number generator and returns values from 65-90 to return
 a random character from A-Z
 */
+#include <stdlib.h>
+#include "random.h"
 
 char randchar() {
 
-    const char randomChar = (rand() % (26)) + 65;               // calls seeded randomizer modulus 26 for A-Z and +65 for ASCII 'A' start point
-    return randomChar;
+    return (rand() % 26) + 65;               // returns call to seeded randomizer modulus 26 for A-Z and +65 for ASCII 'A' start point
+
 }
