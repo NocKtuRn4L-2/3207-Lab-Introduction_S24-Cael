@@ -9,7 +9,7 @@ Given driver for random.c
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "random.c"
+#include "random.h"
 
 
 int main()
